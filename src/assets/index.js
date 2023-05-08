@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -22,16 +21,15 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import jeavio from "./company/jeavio.png";
+import diaryz from "./company/solebrain.png";
+import incubyte from "./company/incubyte.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import carrent from "./study-hive.png";
+import jobit from "./django-quiz.png";
 import tripguide from "./tripguide.png";
 
 export {
-  logo,
   backend,
   creator,
   mobile,
@@ -53,9 +51,9 @@ export {
   typescript,
   threejs,
   meta,
-  shopify,
-  starbucks,
-  tesla,
+  jeavio as shopify,
+  diaryz as starbucks,
+  incubyte as tesla,
   carrent,
   jobit,
   tripguide,
