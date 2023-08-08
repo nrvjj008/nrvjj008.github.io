@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "../utils/motion";
 const ServiceCard = ({ index, title, icon }) => (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
-      className='xs:w-[250px] w-full shadow-sm  w-full  p-[1px] rounded-[20px] shadow-card bg-gradient-to-t from-blue-500 to-blue-600'
+      className='xs:w-[250px] w-full shadow-2xl  p-[1px] rounded-[20px] bg-gradient-to-t from-blue-400 to-blue-600'
     >
       <div
         options={{
@@ -43,7 +43,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-slate-300 text-[22px] max-w-3xl leading-[30px]'
+        className='mt-4 text-slate-600 text-[22px] leading-[30px]'
       >
        Experienced full stack software developer with 3 years of experience in various technologies, seeking to join a dynamic team and positively impact the tech industry. Strong passion for learning and implementing new technologies, adept at solving complex problems      </motion.p>
 

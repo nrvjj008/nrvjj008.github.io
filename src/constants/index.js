@@ -115,12 +115,23 @@ const technologies = [{
   },
 ];
 
-const experiences = [{
+const experiences = [
+  {
+    title: "Full Stack Developer",
+    company_name: "Pharma Medica Research Inc.",
+    icon: starbucks,
+    iconBg: "#383E56",
+    date: "June 2023 - Present",
+    points: [
+      "Built a cross-platform mobile app using React Native and Django from scratch.", , " Designed APIs, database schema, integrated ChatGPT, chat and feed libraries and Apple Pay."
+    ],
+  },
+    {
       title: "Full Stack Developer Intern",
       company_name: "Diaryz",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2023 - Present",
+      date: "March 2023 - June 2023",
       points: [
         "Built a cross-platform mobile app using React Native and Django from scratch.", , " Designed APIs, database schema, integrated ChatGPT, chat and feed libraries and Apple Pay."
       ],
@@ -133,7 +144,6 @@ const experiences = [{
       date: "Aug 2021 - Aug 2022",
       points: [
         " Implemented a fully customizable drag & drop utility in React to generate dynamic SQL filters, resulting in a 80% reduction in the time required to create custom SQL filters.",
-        " Voluntarily identified and decommissioned unused services in AWS, resulting in a cost savings of $2,000 per month for the company.",
         " Actively participated in code reviews, technical discussions, root cause analysis, and production issue resolution to ensure optimal performance of the application.",
         " Worked with Java, GraphQL, React, PostgresSQL, and AWS with TDD in a fast-paced, remote environment.",
         " Wrote comprehensive unit and integration test cases that increased code coverage from 60% to 78%. ",
