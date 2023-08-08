@@ -24,6 +24,9 @@ import meta from "./company/meta.png";
 import jeavio from "./company/jeavio.png";
 import diaryz from "./company/solebrain.png";
 import incubyte from "./company/incubyte.png";
+import pharma from "./company/pharma.png";
+
+
 
 import carrent from "./study-hive.png";
 import jobit from "./django-quiz.png";
@@ -54,6 +57,7 @@ export {
   jeavio as shopify,
   diaryz as starbucks,
   incubyte as tesla,
+    pharma as pharma,
   carrent,
   jobit,
   tripguide,

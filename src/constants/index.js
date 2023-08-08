@@ -17,6 +17,7 @@ import {
   docker,
   meta,
   starbucks,
+    pharma,
   tesla,
   shopify,
   carrent,
@@ -119,11 +120,13 @@ const experiences = [
   {
     title: "Full Stack Developer",
     company_name: "Pharma Medica Research Inc.",
-    icon: starbucks,
+    icon: pharma,
     iconBg: "#383E56",
     date: "June 2023 - Present",
     points: [
-      "Built a cross-platform mobile app using React Native and Django from scratch.", , " Designed APIs, database schema, integrated ChatGPT, chat and feed libraries and Apple Pay."
+      "developed a volunteer portal for hundreds, using Next.js, Express, and TypeScript, focusing on stable and scalable\n" +
+      "solutions", , " Maintained code quality, ensured readability, and minimized technical debt through rigorous standards and\n" +
+      "practices like SOLID principles and TDD."
     ],
   },
     {
@@ -131,7 +134,7 @@ const experiences = [
       company_name: "Diaryz",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2023 - June 2023",
+      date: "March 2023 - May 2023",
       points: [
         "Built a cross-platform mobile app using React Native and Django from scratch.", , " Designed APIs, database schema, integrated ChatGPT, chat and feed libraries and Apple Pay."
       ],
